@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "task01/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
