@@ -11,11 +11,23 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <text
+                    <button
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/button"
+                        name="./button"/>
+                    <email
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Text"
-                        name="./text"/>
+                        emptyText="Enter Your Email"
+                        fieldLabel="email"
+                        name="./email"
+                        placeHolder="Enter Your Email"/>
+                    <password
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        emptyText="Enter Your Password"
+                        fieldLabel="password"
+                        name="./password"/>
                 </items>
             </column>
         </items>
