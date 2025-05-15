@@ -5,11 +5,11 @@ import java.io.InputStreamReader;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
-import javax.json.Json;
-import javax.json.JsonArray;
-import javax.json.JsonReader;
+//import javax.json.Json;
+//import javax.json.JsonArray;
+//import javax.json.JsonReader;
 // Add this import
-import java.io.StringReader;
+//import java.io.StringReader;
 
 import java.io.IOException;
 
