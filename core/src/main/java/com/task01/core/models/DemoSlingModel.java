@@ -8,7 +8,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 @Model(adaptables = { Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class DemoSlingModel {
     // demoSlingModel is added it was i get into the main
-//email
+
     @ValueMapValue
     private String text;
 
