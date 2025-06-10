@@ -7,6 +7,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = { Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class EmailSlingModel {
+    //email sling model
     @ValueMapValue
     private String email;
     @ValueMapValue
@@ -15,7 +16,7 @@ public class EmailSlingModel {
     public String getEmail() {
         return email;
     }
-    
+
     public String getPassword() {
         return password;
     }
