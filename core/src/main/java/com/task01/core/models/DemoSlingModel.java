@@ -7,7 +7,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = { Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class DemoSlingModel {
-
+//demoSlingModel is added
     @ValueMapValue
     private String text;
 
