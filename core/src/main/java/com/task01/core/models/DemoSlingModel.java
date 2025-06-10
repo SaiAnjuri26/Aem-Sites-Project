@@ -7,8 +7,8 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = { Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class DemoSlingModel {
-//demoSlingModel is added it was i get into the main
-//i want add the Demosling into the feature/realse-3.2.0/slingmodel 
+    // demoSlingModel is added it was i get into the main
+
     @ValueMapValue
     private String text;
 
