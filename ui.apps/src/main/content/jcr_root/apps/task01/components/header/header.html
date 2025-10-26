@@ -1,0 +1,8 @@
+<h1>Header Component</h1>
+<div data-sly-use.obj="com.task01.core.models.HeaderComponent">
+<p>Name : ${obj.text}</p>
+<p>Path : ${obj.path}</p>
+<ul data-sly-list.item="${obj.multi}">
+        <li>Email: ${item.email}, Checkbox Value: ${item.checkbox}</li>
+    </ul>
+</div>
